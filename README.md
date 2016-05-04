@@ -12,10 +12,14 @@ To get started, you will need to install [Zephir](http://zephir-lang.com).
 All modules hosted here live under the `Zend` namespace and can be accessed via the following:
 
 ```php
-Zend\Registry::set('config', [1, 2, 3]);
+Zend\Registry::set('config', array(1,2,3));
 $config = Zend\Registry::get('config');
 ```
 > Note the `Zend\Registry` forward slash, instead of `Zend_Registry` underscore
+```php
+Zend_Registry::set('config', array(1,2,3));
+$config = Zend_Registry::get('config');
+```
 
 #### Module Installation
 You can use the modules here by invoking the following:
