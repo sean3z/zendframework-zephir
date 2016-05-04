@@ -15,7 +15,7 @@ All modules hosted here live under the `Zend` namespace and can be accessed via 
 Zend\Registry::set('config', array(1,2,3));
 $config = Zend\Registry::get('config');
 ```
-> Note the `Zend\Registry` forward slash, instead of `Zend_Registry` underscore
+> Note the `Zend\Registry` forward slash, instead of `Zend_Registry` underscore. Equivilent to:
 ```php
 Zend_Registry::set('config', array(1,2,3));
 $config = Zend_Registry::get('config');
