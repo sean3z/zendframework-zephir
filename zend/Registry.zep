@@ -68,7 +68,7 @@ class Registry {
   }
 
   /**
-  * ArrayObject (via WDPRO_Registry) polyfill
+  * ArrayObject polyfill (for legacy callers)
   */
   public final function offsetExists(const string key) -> boolean {
     return self::isRegistered(key);

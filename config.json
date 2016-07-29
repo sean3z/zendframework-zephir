@@ -54,8 +54,8 @@
     },
     "namespace": "zend",
     "name": "zend",
-    "description": "Zend module replacement (via Zephir)",
-    "author": "Sean Wragg <sean.wragg@disney.com>",
+    "description": "Zend Framework (ZF1) replacement (via Zephir)",
+    "author": "Sean Wragg <seanwragg@gmail.com>",
     "version": "0.0.1",
     "verbose": false,
     "requires": {

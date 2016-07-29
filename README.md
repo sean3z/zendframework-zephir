@@ -5,7 +5,6 @@
 #### Getting Started
 To get started, you will need to install [Zephir](http://zephir-lang.com).
 
-* [NGE: Use Zephir to Compile PHP Extensions](https://wiki.nge.wdig.com/display/NGE/Using+Zephir+to+compile+PHP+extensions)
 * [Zephir Documentation](http://docs.zephir-lang.com/en/latest/index.html)
 
 #### Zend Namespace
@@ -25,7 +24,7 @@ $ zephir build && sudo apachectl -k restart
 This should build the `zend.so` extension and place it in your defined php extensions directory. From there you can include the module by updating your `php.ini` file:
 ```ini
 [zf1]
-extension=/Users/wrags002/zendframework/zend/ext/modules/zend.so
+extension=/Users/sean/zendframework/zend/ext/modules/zend.so
 ```
 
 #### Zend Modules
