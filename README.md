@@ -27,6 +27,10 @@ This should build the `zend.so` extension and place it in your defined php exten
 extension=/Users/sean/zendframework/zend/ext/modules/zend.so
 ```
 
+#### Performance
+Captured with [xhprof](https://pecl.php.net/package/xhprof), this Zephir version of ZF1's Zend_Registry performs **53%** faster than it's original PHP counterpart.
+![Zephir Performance](http://i.imgur.com/rr8pvNQ.png)
+
 #### Zend Modules
 A list of complete (ready-to-use) modules:
 * [Registry](zend/Registry.zep)
